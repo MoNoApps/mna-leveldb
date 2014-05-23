@@ -1,0 +1,19 @@
+{
+	"name": "mna-leveldb",
+	"version": "0.0.1",
+	"private": true,
+	"description": "MNA for LevelBD Implementation",
+	"main": "app.js",
+	"dependencies": {
+		"async": "^0.2.10",
+		"leveldown": "^0.10.2",
+		"levelup": "^0.18.2",
+		"referee": "^1.0.2"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "mocha"
+	},
+	"author": "Daniel Martinez",
+	"license": "MIT"
+}
