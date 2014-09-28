@@ -11,7 +11,7 @@ db.put('key', 'value', function(err) {
 		} else {
 			console.log(value);
 
-			db.get('key', function(err) {
+			db.del('key', function(err) {
 				if (err) {
 					console.log('Error on delete:', err);
 				} else {
